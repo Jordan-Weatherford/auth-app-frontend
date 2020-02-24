@@ -1,0 +1,33 @@
+@import '../../Resources/Colors.scss';
+
+.App > div {
+    text-align: center;
+}
+
+.App > div > div {
+    display: inline-block;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    * {
+        margin: 10px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    h2 {
+        color: $yellow;
+    }
+
+    button:hover {
+        background-color: $red;
+        color: white;
+    }
+}

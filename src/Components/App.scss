@@ -1,0 +1,21 @@
+@import '../Resources/Colors.scss';
+
+/* basic normalizers */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Odibee Sans', sans-serif;
+}
+
+body {
+    background-color: $dark-gray;
+}
+
+.App {
+    margin: 50px;
+
+    h1, h3 {
+        text-align: center;
+    }
+}
